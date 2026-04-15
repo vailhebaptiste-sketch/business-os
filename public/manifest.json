@@ -1,0 +1,44 @@
+{
+  "name": "Business OS",
+  "short_name": "Business OS",
+  "description": "Gestion clients, missions, devis et équipe pour TPE/PME et artisans",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Nouveau client",
+      "url": "/dashboard/clients/nouveau",
+      "description": "Ajouter un client"
+    },
+    {
+      "name": "Nouvelle mission",
+      "url": "/dashboard/missions/nouvelle",
+      "description": "Créer une mission"
+    },
+    {
+      "name": "Nouveau devis",
+      "url": "/dashboard/devis/nouveau",
+      "description": "Créer un devis"
+    }
+  ]
+}
